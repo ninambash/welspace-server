@@ -38,7 +38,8 @@ app.use('/api-v1/goal', require('./controllers/api-v1/goal'));
 app.use('/api-v1/content', require('./controllers/api-v1/content'));
 app.use('/api-v1/activity', require('./controllers/api-v1/activity'));
 app.use('/api-v1/engagement', require('./controllers/api-v1/engagement'));
-app.use('/api-v1/quantitativGoal', require('./controllers/api-v1/quantitativGoal'));
+app.use('/api-v1/quantitativgoal', require('./controllers/api-v1/quantitativgoal')); // Updated path
+
 app.use('/api-v1/routine', require('./controllers/api-v1/routine'));
 
 // hey listen on a port
